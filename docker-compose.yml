@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  app:
+    container_name: mini-bank
+    image: mini-bank:1.0.0
+    build: .
+    ports:
+      - 3000:3000
+    volumes: 
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - database
+      
+  database:
+    image: postgres
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_DB=ts-starter
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./db/data/postgres:/var/lib/postgresql
+    ports:
+      - 5432:5432
