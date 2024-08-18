@@ -65,8 +65,8 @@ async function main() {
                 },
             },
             externalDocs: {
-                url: 'https://github.com/teguharifudin/concreteal',
-                description: 'Concreteal Node.js, Fastify home assignment source code is on GitHub',
+                url: 'https://github.com/teguharifudin/Mini-Bank',
+                description: 'Build a RESTful API using Node.js, Fastify, Prisma, TypeScript, PostgreSQL with Swagger for a mini bank.',
             },
             host: '0.0.0.0:3000',
             basePath: '/',
