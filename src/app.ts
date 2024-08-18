@@ -55,8 +55,8 @@ async function main() {
         routePrefix: '/docs',
         swagger: {
             info: {
-                title: 'Fastify Prisma REST API',
-                description: 'A REST API built with Fastify, Prisma and TypeScript',
+                title: 'Main Bank',
+                description: 'Build a RESTful API using Node.js, Fastify, Prisma, TypeScript, PostgreSQL with Swagger for a mini bank.',
                 version: '1.0.0',
                 contact: {
                     name: "Teguh Arief",
