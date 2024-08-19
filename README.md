@@ -86,4 +86,4 @@ User A
 
 ## Contributing
 
-Please use the [issue tracker](https://github.com/teguharifudin/YouApp/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/teguharifudin/Mini-Bank/issues) to report any bugs or file feature requests.
